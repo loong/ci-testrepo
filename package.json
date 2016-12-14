@@ -1,0 +1,18 @@
+{
+    "name": "ci-testrepo",
+    "version": "1.0.0",
+    "description": "Test Repository to test travis code uploads",
+    "main": "src/test.js",
+    "scripts": {
+	"start": "node src/test.js"},
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/mindworker/ci-testrepo.git"
+    },
+    "author": "Long Hoang <long@mindworker.de>",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://github.com/mindworker/ci-testrepo/issues"
+    },
+    "homepage": "https://github.com/mindworker/ci-testrepo#readme"
+}
